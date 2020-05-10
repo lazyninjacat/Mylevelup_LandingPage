@@ -1,0 +1,123 @@
+.card {
+  // background: rgb(57, 32, 116);
+  border: 1px solid $darkgreygreen;
+  border-radius: 0%;
+  height: 570px;
+  width: 310px;
+  position: relative;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.1s cubic-bezier(1, 1, 1, 1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(0, 23, 65, 0.253);
+  color: white;
+  border: 1px solid #489dcf;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.card-1 {
+  box-shadow: 1px 1px 1px rgba(55, 17, 160, 0.12),
+    1px 1px 1px rgba(132, 32, 226, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(62, 65, 231, 0.25),
+    0 10px 10px rgba(72, 41, 211, 0.22);
+}
+
+.cardTitle {
+  padding: 5px;
+}
+
+.cardDescription {
+  padding: 5px;
+}
+
+.cardTech {
+  padding: 5px;
+  font-size: 14px;
+  display: inline;
+  ul {
+    list-style: none;
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  li {
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.5em;
+  }
+
+  ul li::before {
+    content: "";
+    width: 1em;
+    margin-left: -2em;
+  }
+}
+
+.cardLinks {
+  padding: 5px;
+  align-self: flex-end;
+  transition: all 0.1s cubic-bezier(1, 1, 1, 1);
+
+  a {
+    padding: 10px;
+    font-size: 25px;
+  }
+}
+
+.cardLinks:hover {
+  a {
+    transform: translateY(-5px);
+  }
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: $largescreen) {
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: $mediumlargescreen) {
+}
+
+@media only screen and (max-width: $mediumscreen) {
+  .card {
+    display: block;
+    position: relative;
+    padding: 15px;
+    width: 80%;
+    height: 50%;
+  }
+  .cardLinks {
+    text-align: right;
+    a {
+      padding: 15px;
+      font-size: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: $smallscreen) {
+}

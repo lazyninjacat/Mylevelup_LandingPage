@@ -1,0 +1,62 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+
+
+@media only screen and (max-width: $largescreen) {
+
+}
+
+@media only screen and (max-width: $mediumlargescreen) {
+}
+@media only screen and (max-width: $mediumscreen) {
+}
+@media only screen and (max-width: $smallscreen) {
+}
+
+@media screen and (-webkit-device-pixel-ratio) {
+  .line1 {
+    opacity: 0;
+    display: block;
+    animation: slidein 3s 0s forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 0.3s;
+    text-shadow: 1px 1px 1px #222222;
+  }
+  .line2 {
+    opacity: 0;
+    display: block;
+    animation: slidein 3s 0s forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    text-shadow: 1px 1px 1px #222222;
+  }
+  .line3 {
+    opacity: 0;
+    display: block;
+    animation: slidein 3s 0s forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 0.7s;
+    text-shadow: 1px 1px 1px #222222;
+  }
+  .line4 {
+    opacity: 0;
+    display: block;
+    animation: slidein 3s 0s forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 0.9s;
+    text-shadow: 1px 1px 1px #222222;
+  }
+  .line5 {
+    opacity: 0;
+    display: block;
+    animation: slidein 3s 0s forwards;
+    animation-timing-function: ease-out;
+    animation-delay: 1.1s;
+    text-shadow: 1px 1px 1px #222222;
+  }
+}

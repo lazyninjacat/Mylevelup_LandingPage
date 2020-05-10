@@ -1,0 +1,60 @@
+// Stylesheet for portfolio section
+
+#mlu {
+  grid-column: 1;
+}
+
+#inferno {
+  grid-column: 2;
+}
+
+#starman {
+  grid-column: 3;
+}
+
+#portfolio {
+  width: 100%;
+  padding-top: 0px;
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 0px;
+
+    height: 0px;
+    border-bottom: 0px solid white;
+
+    code {
+      font-size: inherit;
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+
+  h2 span {
+    background: $background;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: $largescreen) {
+  #portfolio {
+    display: inline-block;
+
+  }
+}
+
+@media only screen and (max-width: $mediumlargescreen) {
+}
+
+@media only screen and (max-width: $mediumscreen) {
+  #portfolio {
+    display: inline-block;
+    padding-top: 15vh;
+    left: 5%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: $smallscreen) {
+}

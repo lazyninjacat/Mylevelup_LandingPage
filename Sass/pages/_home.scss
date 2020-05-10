@@ -1,0 +1,79 @@
+// Stylesheet for Home section
+
+.nameHeading {
+  color: $beige;
+  font-style: strong;
+}
+
+.titleDescriptionText {
+  margin-right: 0%;
+}
+
+#home {
+  height: 80vh;
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+ 
+
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: PT Sans;
+    color: $darkgreygreen;
+  }
+  p {
+    width: 50%;
+    margin-top: 5vh;
+  }
+}
+
+@media only screen and (max-width: $largescreen) {
+  #home {
+    left: 10%;
+    padding-top: 10vh;
+  }
+}
+@media only screen and (max-width: $mediumlargescreen) {
+  #home {
+    left: 10%;
+    padding-top: 10vh;
+  }
+}
+@media only screen and (max-width: $mediumscreen) {
+  #home {
+    left: 5%;
+    width: 90%;
+    padding-top: 20vh;
+
+    p {
+      width: 80%;
+    }
+  }
+}
+@media only screen and (max-width: $smallscreen) {
+  #home {
+    left: 5%;
+    width: 90%;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-family: PT Sans;
+      color: $darkgreygreen;
+    }
+  }
+}

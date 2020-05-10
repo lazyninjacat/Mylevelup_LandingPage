@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+  
+  font-family: Quicksand;
+  font-size: 17px;
+  color: $darkgreygreen;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: PT Sans;
+  font-weight: 1000;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: PT Sans;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: $code;
+}
+
+p {
+  position: relative;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: $largescreen) {
+  body {
+    text-align: left;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: $mediumlargescreen) {
+}
+@media only screen and (max-width: $mediumscreen) {
+}
+@media only screen and (max-width: $smallscreen) {
+}

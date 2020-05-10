@@ -1,0 +1,29 @@
+section{
+width: 100%;
+margin: 0px;
+padding: 0px;
+  
+
+}
+
+.background{
+    background-image: url("/Static/mylvlup_background.png") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.background_upsidedown{
+    background-image: url("/Static/mylvlup_background_upsidedown.png") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.background_white{
+    background-color: white;
+}
+
+.background_skycolor{
+    background-color: #99d9ea;
+}
