@@ -88,39 +88,22 @@
 #contact {
   height: 100vh;
   text-align: left;
-}
-
-#contact .aboutHorizontalLine {
-  width: 100%;
+  margin-top: 0px;
 }
 
 #contact p {
-  width: 60%;
+  width: 100%;
   float: left;
 }
 
 #contact h2 {
   width: 100%;
   text-align: left;
-  line-height: 0px;
-  margin: 20px 0 20px;
-  height: 0px;
-  border-bottom: 0px solid white;
 }
 
 #contact h2 code {
   font-size: inherit;
   font-family: "Courier New", Courier, monospace;
-}
-
-#contact h2 span {
-  background: #06070f;
-  padding-left: 10px;
-  margin-right: -1px;
-}
-
-.contactDescription {
-  background: #06070f;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -142,18 +125,18 @@
 
 @media only screen and (max-width: 1020px) {
   #contact {
-    left: 5%;
-    width: 90%;
+    left: 0%;
+    width: 100%;
   }
   #contact p {
-    width: 90%;
+    width: 100%;
     float: left;
   }
 }
 
 .aboutDescriptionText {
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 0px;
+  padding-top: 0px;
   width: 100%;
 }
 
@@ -189,47 +172,9 @@
   margin-left: -3em;
 }
 
-.aboutProfileImg {
-  width: 100%;
-  margin-top: 10%;
-  -webkit-filter: grayscale(0.7);
-          filter: grayscale(0.7);
-  -webkit-box-shadow: 20px 20px midnightblue;
-          box-shadow: 20px 20px midnightblue;
-  -webkit-transition: all 0.1s cubic-bezier(1, 1, 1, 1);
-  transition: all 0.1s cubic-bezier(1, 1, 1, 1);
-}
-
-.aboutProfileImgSlot {
-  padding-top: 25px;
-  justify-self: flex-end;
-  text-align: right;
-  margin-left: 10%;
-}
-
-.aboutProfileImg:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
-  -webkit-box-shadow: 10px 10px midnightblue;
-          box-shadow: 10px 10px midnightblue;
-}
-
-.aboutHorizontalLine {
-  width: 100%;
-  margin-top: 0px;
-  border: 0px solid #06070f;
-}
-
 .aboutContentContainer {
   display: block;
   width: 50%;
-}
-
-.aboutBulletListContainer {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding-left: 20px;
 }
 
 .aboutFlexContainer {
@@ -244,14 +189,12 @@
   padding-top: 0px;
   width: 100%;
   margin: 0px;
-  display: inline-block;
 }
 
 #about h2 {
   width: 100%;
   text-align: left;
   line-height: 0px;
-  margin: 20px 0 20px;
   height: 0px;
   border-bottom: 0px solid white;
 }
@@ -417,6 +360,7 @@ body {
   color: #b8d3e4;
   margin: 0px;
   padding: 0px;
+  background-color: #99d9ea;
 }
 
 h1 {
@@ -542,6 +486,7 @@ header {
 .headerContainer {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  background-color: #99d9ea;
 }
 
 .closeMobileHeader {
@@ -630,7 +575,7 @@ header {
 }
 
 @media only screen and (max-width: mediumscreen) {
-  .menu {
+  .mobileMenu {
     display: block;
   }
 }
@@ -650,7 +595,7 @@ header {
 
 #nav-icon3 span {
   position: absolute;
-  height: 1px;
+  height: 2px;
   border-radius: 10%;
   opacity: 1;
   -webkit-transform: rotate(0deg);
@@ -731,7 +676,7 @@ header {
   }
 }
 
-.menu {
+.mobileMenu {
   z-index: 3;
   font-weight: bold;
   font-size: 25px;
@@ -742,36 +687,36 @@ header {
   display: none;
 }
 
-.menu code {
+.mobileMenu code {
   font-size: 20px;
 }
 
-.menu ul {
+.mobileMenu ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   list-style-image: none;
 }
 
-.menu li {
+.mobileMenu li {
   display: block;
   padding: 25px;
   border-bottom: 1px solid;
 }
 
-.menu ul li a {
+.mobileMenu ul li a {
   text-decoration: none;
   margin: 0px;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-.menu a {
+.mobileMenu a {
   text-decoration: none;
   color: #cbe1ee;
 }
 
-.menu ul li a:hover {
+.mobileMenu ul li a:hover {
   color: white;
 }
 
@@ -809,7 +754,7 @@ footer {
 }
 
 button {
-  background-color: navy;
+  background-color: darkblue;
   color: #cbe1ee;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
@@ -890,7 +835,7 @@ fieldset {
 #contact button[type="submit"] {
   cursor: pointer;
   border: none;
-  background: #06070f;
+  background: darkblue;
   color: lightgreen;
   margin-top: 10px;
   padding-top: 20px;
