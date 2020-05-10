@@ -13,7 +13,6 @@
 // Pages
 @import "pages/home";
 @import "pages/contact";
-@import "pages/portfolio";
 @import "pages/about";
 
 // Base
@@ -26,18 +25,8 @@
 @import "layout/header";
 @import "layout/navigation";
 @import "layout/footer";
-// @import 'layout/sidebar';
-// @import 'layout/forms';
-
-//Themes
-// @import 'themes/theme';
 
 // Components
 @import "components/buttons";
-@import "components/cards";
-@import "components/gradient-border";
-@import "components/social-container";
-@import "components/lines";
 @import "components/contact-form";
-@import "components/feature-project";
 @import "components/section";
