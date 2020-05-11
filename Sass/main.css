@@ -102,210 +102,6 @@
   }
 }
 
-.aboutDescriptionText {
-  padding-left: 0px;
-  padding-top: 0px;
-  width: 100%;
-}
-
-.aboutBulletList {
-  margin-left: 20px;
-}
-
-.aboutBulletList p {
-  text-decoration: underline;
-  color: lightgreen;
-}
-
-.aboutBulletList ul {
-  list-style: none;
-  -webkit-column-count: 3;
-          column-count: 3;
-  -webkit-column-gap: 100px;
-          column-gap: 100px;
-}
-
-.aboutBulletList li {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  line-height: 2em;
-}
-
-.aboutBulletList ul li::before {
-  content: "";
-  color: lightgreen;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -3em;
-}
-
-.aboutContentContainer {
-  display: block;
-  width: 50%;
-}
-
-.aboutFlexContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#about {
-  height: 100vh;
-  left: 0%;
-  padding-top: 0px;
-  width: 100%;
-  margin: 0px;
-}
-
-#about h2 {
-  width: 100%;
-  text-align: left;
-  line-height: 0px;
-  height: 0px;
-  border-bottom: 0px solid white;
-}
-
-#about h2 code {
-  font-size: inherit;
-  font-family: "Courier New", Courier, monospace;
-}
-
-@media only screen and (max-width: 1600px) {
-  #about {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  #about .aboutHorizontalLine {
-    margin-top: 0px;
-    left: 0%;
-    width: 100%;
-  }
-  #about p {
-    text-align: left;
-    width: 100%;
-  }
-  #about ul {
-    text-align: left;
-  }
-  #about .aboutContentContainer {
-    display: block;
-    width: 100%;
-  }
-  #about .aboutBulletList {
-    -webkit-column-count: 1;
-            column-count: 1;
-  }
-}
-
-@media only screen and (max-width: 1250px) {
-  #about {
-    display: block;
-    left: 10%;
-    width: 80%;
-    height: 100%;
-  }
-  #about .aboutHorizontalLine {
-    margin-top: 0px;
-    left: 0%;
-    width: 100%;
-  }
-  #about p {
-    left: 0%;
-    text-align: left;
-    width: 90%;
-  }
-  #about ul {
-    text-align: left;
-    width: 100%;
-  }
-  #about ul li::before {
-    font-weight: bold;
-    display: inline;
-    margin-left: -3em;
-  }
-  #about .aboutContentContainer {
-    display: block;
-  }
-  #about .aboutBulletList {
-    -webkit-column-count: 1;
-            column-count: 1;
-  }
-  #about .aboutFlexContainer {
-    display: block;
-  }
-  #about .aboutProfileImg {
-    width: 70%;
-    padding: 10px;
-  }
-  #about .aboutProfileImgSlot {
-    text-align: center;
-    padding-top: 25px;
-    width: 100%;
-    float: right;
-  }
-}
-
-@media only screen and (max-width: 1020px) {
-  #about {
-    display: block;
-    left: 5%;
-    width: 90%;
-  }
-  #about .aboutHorizontalLine {
-    margin-top: 0px;
-    left: 0%;
-    width: 100%;
-  }
-  #about p {
-    left: 3%;
-    text-align: left;
-    width: 90%;
-  }
-  #about .aboutBulletListContainer {
-    display: block;
-    padding-left: 20%;
-  }
-  #about .aboutBulletListContainer ul {
-    list-style: none;
-    -webkit-column-count: 2;
-            column-count: 2;
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  #about {
-    display: block;
-    left: 5%;
-    width: 90%;
-  }
-  #about .aboutHorizontalLine {
-    margin-top: 0px;
-    left: 0%;
-    width: 100%;
-  }
-  #about p {
-    left: 0%;
-    text-align: left;
-    width: 90%;
-  }
-  #about .aboutBulletListContainer {
-    display: block;
-    padding-left: 15px;
-  }
-  #about .aboutBulletListContainer ul {
-    list-style: none;
-    -webkit-column-count: 2;
-            column-count: 2;
-    -webkit-column-gap: 20px;
-            column-gap: 20px;
-  }
-}
-
 .downloadButtonsContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -463,11 +259,12 @@ p {
 }
 
 header {
-  height: auto;
   z-index: 1;
   position: absolute;
-  margin-left: 10px;
-  margin-right: 10px;
+}
+
+header button {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .headerContainer {
@@ -496,7 +293,6 @@ header {
 
 .headerLogo a img {
   width: 120px;
-  height: auto;
 }
 
 .headerMenu {
@@ -521,11 +317,9 @@ header {
 
 @media only screen and (max-width: 1020px) {
   header {
-    background-color: #99d9ea;
+    background-color: #99d9ead5;
     height: 45px;
     padding: 10px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
   }
   .headerMenu {
     display: none;
@@ -535,7 +329,6 @@ header {
     font-size: 26px;
     font-family: PT Sans;
     color: #b8d3e4;
-    margin-top: 10px;
   }
   .headerLogo a {
     padding-top: 5px;
@@ -551,7 +344,7 @@ header {
 
 @media only screen and (max-width: mediumscreen) {
   .mobileMenu {
-    display: block;
+    display: none;
   }
 }
 
@@ -563,7 +356,7 @@ header {
   transition: 0.5s ease-in-out;
   cursor: pointer;
   text-decoration: none;
-  margin-top: 7px;
+  margin-top: 0px;
   float: right;
   display: none;
 }
@@ -571,6 +364,8 @@ header {
 #nav-icon3 span {
   position: absolute;
   height: 2px;
+  border: 1px solid black;
+  background-color: grey;
   border-radius: 10%;
   opacity: 1;
   -webkit-transform: rotate(0deg);
@@ -660,6 +455,7 @@ header {
   text-align: center;
   margin-top: 85px;
   display: none;
+  background-color: #3b3b3b;
 }
 
 .mobileMenu code {
@@ -676,7 +472,7 @@ header {
 .mobileMenu li {
   display: block;
   padding: 25px;
-  border-bottom: 1px solid;
+  border: 1px solid;
 }
 
 .mobileMenu ul li a {
@@ -854,8 +650,7 @@ fieldset {
 
 section {
   width: 100%;
-  padding-bottom: 0px;
-  border: 1px solid red;
+  padding-top: 150px;
 }
 
 .background_normal {

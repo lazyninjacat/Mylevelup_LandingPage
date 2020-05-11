@@ -1,211 +1,23 @@
 // Stylesheet for the About section
 
-.aboutDescriptionText {
-  padding-left: 0px;
-  padding-top: 0px;
-  width: 100%;
-}
+#about { 
 
-.aboutBulletList {
-  p {
-    text-decoration: underline;
-    color: $code;
-  }
-  ul {
-    list-style: none;
-    column-count: 3;
-    column-gap: 100px;
-  }
-
-  li {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-    line-height: 2em;
-  }
-
-  ul li::before {
-    content: "";
-    color: $code;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -3em;
-  }
-  margin-left: 20px;
-}
-
-.aboutContentContainer {
-  display: block;
-  width: 50%;
-}
-
-.aboutFlexContainer {
-  display: flex;
-}
-
-#about {
-  height: 100vh;
-  left: 0%;
-  padding-top: 0px;
-  width: 100%;
-  margin: 0px;
-
-  h2 {
-    width: 100%;
-    text-align: left;
-    line-height: 0px;
-    height: 0px;
-    border-bottom: 0px solid white;
-
-    code {
-      font-size: inherit;
-      font-family: "Courier New", Courier, monospace;
-    }
-  }
 }
 
 @media only screen and (max-width: $largescreen) {
   #about {
-    display: block;
-    width: 100%;
-    height: 100%;
-
-    .aboutHorizontalLine {
-      margin-top: 0px;
-      left: 0%;
-      width: 100%;
-    }
-
-    p {
-      text-align: left;
-      width: 100%;
-    }
-    ul {
-      text-align: left;
-    }
-
-    .aboutContentContainer {
-      display: block;
-      width: 100%;
-    }
-
-    .aboutBulletList {
-      column-count: 1;
-    }
   }
 }
 
 @media only screen and (max-width: $mediumlargescreen) {
-  #about {
-    display: block;
-    left: 10%;
-    width: 80%;
-    height: 100%;
-
-    .aboutHorizontalLine {
-      margin-top: 0px;
-      left: 0%;
-      width: 100%;
-    }
-
-    p {
-      left: 0%;
-      text-align: left;
-      width: 90%;
-    }
-    ul {
-      text-align: left;
-      width: 100%;
-    }
-
-    ul li::before {
-      font-weight: bold;
-      display: inline;
-      margin-left: -3em;
-    }
-
-    .aboutContentContainer {
-      display: block;
-    }
-
-    .aboutBulletList {
-      column-count: 1;
-    }
-
-    .aboutFlexContainer {
-      display: block;
-    }
-
-    .aboutProfileImg {
-      width: 70%;
-      padding: 10px;
-    }
-
-    .aboutProfileImgSlot {
-      text-align: center;
-      padding-top: 25px;
-      width: 100%;
-      float: right;
-    }
+  #about{
   }
 }
 @media only screen and (max-width: $mediumscreen) {
   #about {
-    display: block;
-    left: 5%;
-    width: 90%;
-
-    .aboutHorizontalLine {
-      margin-top: 0px;
-      left: 0%;
-      width: 100%;
-    }
-
-    p {
-      left: 3%;
-      text-align: left;
-      width: 90%;
-    }
-
-    .aboutBulletListContainer {
-      display: block;
-      padding-left: 20%;
-
-      ul {
-        list-style: none;
-        column-count: 2;
-        column-gap: 20px;
-      }
-    }
   }
 }
 @media only screen and (max-width: $smallscreen) {
   #about {
-    display: block;
-    left: 5%;
-    width: 90%;
-
-    .aboutHorizontalLine {
-      margin-top: 0px;
-      left: 0%;
-      width: 100%;
-    }
-
-    p {
-      left: 0%;
-      text-align: left;
-      width: 90%;
-    }
-
-    .aboutBulletListContainer {
-      display: block;
-      padding-left: 15px;
-
-      ul {
-        list-style: none;
-        column-count: 2;
-        column-gap: 20px;
-      }
-    }
   }
 }

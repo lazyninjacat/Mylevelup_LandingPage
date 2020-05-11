@@ -43,13 +43,13 @@ $(document).ready(function() {
 $(document).ready(function() {
   $("#nav-icon3").click(function() {
     $(this).toggleClass("open");
-    $(".menu").slideToggle("fast");
+    $(".mobileMenu").slideToggle("fast");
   });
 });
 $(document).ready(function() {
-  $(".menu").click(function() {
+  $(".mobileMenu").click(function() {
     $("#nav-icon3").toggleClass("open");
-    $(".menu").slideToggle("fast");
+    $(".mobileMenu").slideToggle("fast");
   });
 });
 
