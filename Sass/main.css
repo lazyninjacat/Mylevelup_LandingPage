@@ -306,6 +306,25 @@
   }
 }
 
+.downloadButtonsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0px;
+}
+
+.downloadButtonsContainer img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.downloadButtonsContainer button {
+  height: 60px;
+}
+
 a:link {
   text-decoration: none;
   color: inherit;
@@ -852,6 +871,7 @@ section {
 
 .background_white {
   background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0);
 }
 
 .background_skycolor {
