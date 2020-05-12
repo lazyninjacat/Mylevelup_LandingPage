@@ -1,10 +1,7 @@
 #contact {
-  height: 100vh;
+  height: 80vh;
   text-align: left;
   margin-top: 0px;
-
-
-
 
   p {
     width: 100%;
@@ -13,16 +10,9 @@
 
   h2 {
     width: 100%;
-    text-align: left;
-
-    code {
-      font-size: inherit;
-      font-family: "Courier New", Courier, monospace;
-    }
+    text-align: left; 
   }
 }
-
-
 
 @media only screen and (max-width: $largescreen) {
   #contact {

@@ -5,8 +5,7 @@ header {
   button{
     background-color: rgba(255, 255, 255, 0);
   }
-
-  background-color: $menu_background;
+  background-color: rgba(255, 255, 255, 0.788);
 
 }
 
@@ -33,15 +32,14 @@ header {
   a {
     img{
       width:120px;
-
     }
   }
-
 }
+
 
 .headerMenu {
   float: right;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Indie Flower', cursive;
   color: $pColor;
 
   li {
@@ -51,44 +49,6 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5px;
-  }
-}
-
-
-
-
-////////////////////////////////
-
-@media only screen and (max-width: mediumscreen) {
-  .mobileMenu {
-    display: none;
-  }
-
-  header {
-    height: 45px;
-    padding: 10px;
-  }
-
-  .headerMenu {
-    display: none;
-  }
-
-  .headerLogo {
-    float: left;
-    font-size: 26px;
-    font-family: PT Sans;
-
-    color: $darkgreygreen;
-    a {
-      padding-top: 5px;
-      padding-bottom: 5px;
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-  }
-
-  .closeMobileHeader {
-    transform: translateY(-60px);
   }
 }
 
@@ -175,6 +135,8 @@ header {
   display: none;
 }
 
+
+
 @keyframes slidein {
   0% {
     opacity: 0;
@@ -191,12 +153,13 @@ header {
   z-index: 3;
   font-weight: bold;
   font-size: 25px;
-  width: 99%;
+  width: 98%;
   position: absolute;
   text-align: center;
   margin-top: 85px;
   display: none;
-  background-color: rgb(59, 59, 59);
+  background-color: $background;
+
 
   code {
     font-size: 20px;
@@ -223,7 +186,7 @@ header {
 
 .mobileMenu a {
   text-decoration: none;
-  color: $lightgreygreen;
+  color: $pColor;
 }
 
 .mobileMenu ul li a:hover {
@@ -241,6 +204,34 @@ header {
 @media only screen and (max-width: $mediumlargescreen) {
 }
 @media only screen and (max-width: $mediumscreen) {
+  header {
+    height: 45px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.788);
+  }
+
+  .headerMenu {
+    display: none;
+  }
+
+  .headerLogo {
+    float: left;
+    font-size: 26px;
+    font-family: PT Sans;
+
+    color: $darkgreygreen;
+    a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
+  .closeMobileHeader {
+    transform: translateY(-60px);
+  }
+
   span {
     padding-left: 0px;
   }

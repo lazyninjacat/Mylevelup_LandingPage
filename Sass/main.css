@@ -31,7 +31,7 @@
 }
 
 #home p {
-  width: 50%;
+  width: 70%;
   margin-top: 5vh;
 }
 
@@ -54,7 +54,7 @@
 }
 
 #contact {
-  height: 100vh;
+  height: 80vh;
   text-align: left;
   margin-top: 0px;
 }
@@ -67,11 +67,6 @@
 #contact h2 {
   width: 100%;
   text-align: left;
-}
-
-#contact h2 code {
-  font-size: inherit;
-  font-family: "Courier New", Courier, monospace;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -100,6 +95,11 @@
     width: 100%;
     float: left;
   }
+}
+
+#download {
+  padding-bottom: 50px;
+  padding-top: 0px;
 }
 
 .downloadButtonsContainer {
@@ -146,7 +146,7 @@ body {
   background-color: #99d9ea;
 }
 
-h1 {
+body h1 {
   font-size: 70px;
   font-family: 'Indie Flower', cursive;
   font-weight: 1000;
@@ -154,14 +154,14 @@ h1 {
   margin-bottom: 0px;
 }
 
-h2 {
-  font-size: 35px;
+body h2 {
+  font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'Indie Flower', cursive;
 }
 
-h3 {
+body h3 {
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -182,14 +182,6 @@ p {
 @media only screen and (max-width: 1600px) {
   body {
     text-align: left;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 25px;
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
 }
 
@@ -261,7 +253,7 @@ p {
 header {
   z-index: 1;
   position: absolute;
-  background-color: #99d9ead5;
+  background-color: rgba(255, 255, 255, 0.788);
 }
 
 header button {
@@ -298,7 +290,7 @@ header button {
 
 .headerMenu {
   float: right;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Indie Flower', cursive;
   color: black;
 }
 
@@ -309,35 +301,6 @@ header button {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 5px;
-}
-
-@media only screen and (max-width: mediumscreen) {
-  .mobileMenu {
-    display: none;
-  }
-  header {
-    height: 45px;
-    padding: 10px;
-  }
-  .headerMenu {
-    display: none;
-  }
-  .headerLogo {
-    float: left;
-    font-size: 26px;
-    font-family: PT Sans;
-    color: #b8d3e4;
-  }
-  .headerLogo a {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .closeMobileHeader {
-    -webkit-transform: translateY(-60px);
-            transform: translateY(-60px);
-  }
 }
 
 #nav-icon3 {
@@ -442,12 +405,12 @@ header button {
   z-index: 3;
   font-weight: bold;
   font-size: 25px;
-  width: 99%;
+  width: 98%;
   position: absolute;
   text-align: center;
   margin-top: 85px;
   display: none;
-  background-color: #3b3b3b;
+  background-color: #ffffff;
 }
 
 .mobileMenu code {
@@ -476,7 +439,7 @@ header button {
 
 .mobileMenu a {
   text-decoration: none;
-  color: #cbe1ee;
+  color: black;
 }
 
 .mobileMenu ul li a:hover {
@@ -490,6 +453,30 @@ header button {
 }
 
 @media only screen and (max-width: 1020px) {
+  header {
+    height: 45px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.788);
+  }
+  .headerMenu {
+    display: none;
+  }
+  .headerLogo {
+    float: left;
+    font-size: 26px;
+    font-family: PT Sans;
+    color: #b8d3e4;
+  }
+  .headerLogo a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .closeMobileHeader {
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
+  }
   span {
     padding-left: 0px;
   }
