@@ -261,6 +261,7 @@ p {
 header {
   z-index: 1;
   position: absolute;
+  background-color: #99d9ead5;
 }
 
 header button {
@@ -315,7 +316,6 @@ header button {
     display: none;
   }
   header {
-    background-color: #99d9ead5;
     height: 45px;
     padding: 10px;
   }
