@@ -288,7 +288,7 @@ header button {
 .headerLogo {
   float: left;
   font-size: 30px;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .headerLogo a img {
@@ -310,12 +310,10 @@ header button {
   margin-left: 5px;
 }
 
-.margin0percent {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: mediumscreen) {
+  .mobileMenu {
+    display: none;
+  }
   header {
     background-color: #99d9ead5;
     height: 45px;
@@ -339,12 +337,6 @@ header button {
   .closeMobileHeader {
     -webkit-transform: translateY(-60px);
             transform: translateY(-60px);
-  }
-}
-
-@media only screen and (max-width: mediumscreen) {
-  .mobileMenu {
-    display: none;
   }
 }
 

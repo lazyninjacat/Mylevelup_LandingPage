@@ -26,7 +26,7 @@ header {
 .headerLogo {
   float: left;
   font-size: 30px;
-  padding-top: 10px;
+  padding: 10px;
 
   a {
     img{
@@ -52,16 +52,16 @@ header {
   }
 }
 
-.margin0percent {
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
-@media only screen and (max-width: $largescreen) {
-}
-@media only screen and (max-width: $mediumlargescreen) {
-}
-@media only screen and (max-width: $mediumscreen) {
+
+
+////////////////////////////////
+
+@media only screen and (max-width: mediumscreen) {
+  .mobileMenu {
+    display: none;
+  }
+
   header {
     background-color: $menu_background;
     height: 45px;
@@ -88,17 +88,6 @@ header {
 
   .closeMobileHeader {
     transform: translateY(-60px);
-  }
-}
-
-
-
-
-////////////////////////////////
-
-@media only screen and (max-width: mediumscreen) {
-  .mobileMenu {
-    display: none;
   }
 }
 
