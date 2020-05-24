@@ -58,5 +58,23 @@
 }
 @media only screen and (max-width: $smallscreen) {
   #home {
+    .homeButtonsContainer{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  
+      img{
+        height: 60px;
+        margin-left:0px;
+        margin-bottom: 15px;
+  
+      }
+  
+      button{
+      height: auto;
+      display: none;
+      }
+  
+    }
   }
 }

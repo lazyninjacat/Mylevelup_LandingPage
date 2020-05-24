@@ -1,5 +1,5 @@
 body {
-  font-family: Quicksand;
+  font-family: 'Quicksand';
   font-size: 17px;
   color: $pColor;
   margin: 0px;
@@ -8,7 +8,7 @@ body {
     
   h1 {
     font-size: 70px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Fredoka One';
     font-weight: 1000;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -18,20 +18,20 @@ body {
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Fredoka One';
   }
 
   h3 {
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Fredoka One';
 
   }
 }
 
 code {
-  font-family: "Courier New", Courier, monospace;
+  font-family: '';
   font-size: 18px;
   color: $code;
 }

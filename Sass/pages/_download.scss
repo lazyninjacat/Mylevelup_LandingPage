@@ -1,6 +1,9 @@
 #download{
- padding-bottom: 50px;
- padding-top:0px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 90vh;
+ margin-top: 0px;
 
 }
 
@@ -18,3 +21,43 @@
     height: 60px;
     }
   }
+
+
+
+  @media only screen and (max-width: $largescreen) {
+    #download {
+    }
+  }
+  @media only screen and (max-width: $mediumlargescreen) {
+    #download {
+    }
+  }
+  @media only screen and (max-width: $mediumscreen) {
+    #download {
+    }
+  }
+  @media only screen and (max-width: $smallscreen) {
+    .downloadButtonsContainer{
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 0px;
+  
+      img{
+        height: 60px;
+        margin-right:0px;
+        margin-bottom: 15px;
+      }
+  
+      button{
+      height: 60px;
+      }
+    }
+  }
+
+
+
+
+
+////////////////////////////////////////
+

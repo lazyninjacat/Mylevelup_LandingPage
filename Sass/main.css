@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Coda);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100);
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
 #home {
   height: 100vh;
   width: 100%;
@@ -53,6 +54,30 @@
   height: 60px;
 }
 
+@media only screen and (max-width: 700px) {
+  #home .homeButtonsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #home .homeButtonsContainer img {
+    height: 60px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  #home .homeButtonsContainer button {
+    height: auto;
+    display: none;
+  }
+}
+
 #contact {
   height: 80vh;
   text-align: left;
@@ -97,9 +122,25 @@
   }
 }
 
+@media only screen and (max-width: 1020px) {
+  #about iframe {
+    width: 80vw;
+    margin-left: -10vw;
+  }
+}
+
 #download {
-  padding-bottom: 50px;
-  padding-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 90vh;
+  margin-top: 0px;
 }
 
 .downloadButtonsContainer {
@@ -121,6 +162,30 @@
   height: 60px;
 }
 
+@media only screen and (max-width: 700px) {
+  .downloadButtonsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 0px;
+  }
+  .downloadButtonsContainer img {
+    height: 60px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .downloadButtonsContainer button {
+    height: 60px;
+  }
+}
+
 a:link {
   text-decoration: none;
   color: inherit;
@@ -138,7 +203,7 @@ a:hover {
 }
 
 body {
-  font-family: Quicksand;
+  font-family: 'Quicksand';
   font-size: 17px;
   color: black;
   margin: 0px;
@@ -148,7 +213,7 @@ body {
 
 body h1 {
   font-size: 70px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Fredoka One';
   font-weight: 1000;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -158,18 +223,18 @@ body h2 {
   font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Fredoka One';
 }
 
 body h3 {
   font-size: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Fredoka One';
 }
 
 code {
-  font-family: "Courier New", Courier, monospace;
+  font-family: '';
   font-size: 18px;
   color: lightgreen;
 }
