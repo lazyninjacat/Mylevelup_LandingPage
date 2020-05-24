@@ -1,10 +1,6 @@
 header {
   z-index: 1;
   position: absolute;
-
-  button{
-    background-color: rgba(255, 255, 255, 0);
-  }
   background-color: rgba(255, 255, 255, 0.788);
 
 }
@@ -67,12 +63,17 @@ header {
   margin-top: 0px;
   float: right;
   display: none;
+  width: 45px;
+  height: 45px;
+  border: 3px solid white;
+
 }
 
 #nav-icon3 span {
   position: absolute;
-  height: 2px;
-  background-color: black;;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
   border-radius: 10%;
   opacity: 1;
   -webkit-transform: rotate(0deg);
@@ -85,10 +86,8 @@ header {
   transition: 0.25s ease-in-out;
 }
 
-/* Icon 3 */
-
 #nav-icon3 span:nth-child(1) {
-  top: 0px;
+  top: 5px;
   width: 100%;
   left: 0%;
 }
@@ -101,7 +100,7 @@ header {
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 37px;
+  top: 32px;
   width: 100%;
   left: 0%;
 }
@@ -189,7 +188,7 @@ header {
 }
 
 .mobileMenu ul li a:hover {
-  color: white;
+  color: blue;
 }
 
 .glyphicon-home {
@@ -216,9 +215,7 @@ header {
   .headerLogo {
     float: left;
     font-size: 26px;
-    font-family: PT Sans;
 
-    color: $darkgreygreen;
     a {
       padding-top: 5px;
       padding-bottom: 5px;
@@ -242,6 +239,7 @@ header {
   }
   #nav-icon3 {
     display: inline;
+
   }
 }
 
