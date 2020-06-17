@@ -36,3 +36,16 @@ padding-top:150px;
     margin-left: 20%;
     margin-right: 20%;
 }
+
+
+@media only screen and (max-width: $smallscreen) {
+    .margin10{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .margin20 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

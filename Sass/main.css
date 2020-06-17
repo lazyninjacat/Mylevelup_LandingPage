@@ -51,10 +51,16 @@
 
 @media only screen and (max-width: 700px) {
   #home {
-    margin-top: 15%;
+    margin-top: 0;
+  }
+  #home h2 {
+    font-size: 30px;
+  }
+  #home p {
+    width: 90%;
   }
   #home h1 {
-    width: 80%;
+    font-size: 60px;
   }
   #home .homeButtonsContainer {
     display: -webkit-box;
@@ -189,8 +195,9 @@ a:visited {
 
 @media only screen and (max-width: 1020px) {
   iframe {
-    width: 80vw;
-    margin-left: -10vw;
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
   }
 }
 
@@ -391,7 +398,7 @@ header {
   height: 3px;
   background-color: black;
   border: 1px solid black;
-  border-radius: 10%;
+  border-radius: 30%;
   opacity: 1;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -401,20 +408,20 @@ header {
 
 #nav-icon3 span:nth-child(1) {
   top: 5px;
-  width: 100%;
+  width: 95%;
   left: 0%;
 }
 
 #nav-icon3 span:nth-child(2),
 #nav-icon3 span:nth-child(3) {
   top: 18px;
-  width: 100%;
+  width: 95%;
   left: 0%;
 }
 
 #nav-icon3 span:nth-child(4) {
   top: 32px;
-  width: 100%;
+  width: 95%;
   left: 0%;
 }
 
@@ -543,15 +550,6 @@ header {
   .closeMobileHeader {
     -webkit-transform: translateY(-60px);
             transform: translateY(-60px);
-  }
-  span {
-    padding-left: 0px;
-  }
-  #span1 {
-    padding-right: 0px;
-  }
-  #span2 {
-    padding-right: 0px;
   }
   #nav-icon3 {
     display: inline;
@@ -705,5 +703,16 @@ section {
 .margin20 {
   margin-left: 20%;
   margin-right: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+  .margin10 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .margin20 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

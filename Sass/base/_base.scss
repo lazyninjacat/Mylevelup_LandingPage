@@ -12,7 +12,12 @@ a:visited {
 
 @media only screen and (max-width: $mediumscreen) {
   iframe{
-    width: 80vw;
-    margin-left: -10vw;
-  }  
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+
+  } 
+}
+
+@media only screen and (max-width: $smallscreen) {
 }
